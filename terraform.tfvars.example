@@ -1,0 +1,17 @@
+# Copy this file to terraform.tfvars and adjust the values.
+#   cp terraform.tfvars.example terraform.tfvars
+
+aws_region    = "us-east-1"
+project_name  = "devops-portfolio"
+environment   = "dev"
+vpc_cidr      = "10.0.0.0/16"
+
+container_image = "nginx:latest"
+desired_count   = 2
+
+db_name           = "appdb"
+db_username       = "appuser"
+db_instance_class = "db.t3.micro"
+
+# Set this to receive CloudWatch alarm emails, e.g. "you@example.com".
+alert_email = ""
