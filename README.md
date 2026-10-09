@@ -65,7 +65,7 @@ above it).
 
 ```bash
 # 1. Clone and enter the project
-git clone <this-repo> && cd terraform-aws-multi-tier-infra
+git clone https://github.com/phemmyog79/terraform-aws-multi-tier-infra.git && cd terraform-aws-multi-tier-infra
 
 # 2. Configure your variables
 cp terraform.tfvars.example terraform.tfvars
